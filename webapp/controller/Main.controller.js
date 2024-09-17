@@ -18,7 +18,6 @@ sap.ui.define([
             
             var number = Math.floor(Math.random() * 100) + 1;
             
-            
             this.getView().byId("luckNumber").setText(number.toString());
             
             var oModel = this.getView().getModel();
@@ -26,10 +25,9 @@ sap.ui.define([
             aNumbers.unshift(number);
             oModel.setProperty("/numbers", aNumbers);
             
-            
             this.updateNumbers();
         },
-        
+    
         updateNumbers: function () {
             var oHBox = this.getView().byId("sortedNumbers");
             oHBox.removeAllItems();
