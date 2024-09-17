@@ -1,0 +1,33 @@
+.luckyNumberApp .sapMPage {
+    background-color: #111827;
+}
+
+.luckyNumberApp .sapMTitle {
+    color: white;
+}
+
+.luckyNumberApp .sapMText {
+    color: white;
+}
+
+.luckyNumberApp .sapMBtn {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.luckyNumberApp .sapMBtn:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.luckyNumberApp .numberBox {
+    background-color: #1f2937;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+}

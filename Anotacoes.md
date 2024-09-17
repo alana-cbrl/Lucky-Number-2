@@ -1,0 +1,1 @@
+#  Criando um projeto SAPUI5 pelo terminal do VSCode
